@@ -1,13 +1,21 @@
-
 /* 
-Faça um programa que peça uma nota, entre zero e dez.
-Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o 
-usuário informe um valor válido.  
+. Faça um programa que leia a idade de um nadador e classifique-o numa das
+seguintes categorias abaixo:
+• Adulto (idade >= 18);
+• Juvenil (idade >= 14);
+• Infantil (idade >=9);
+• Mirim (Idade < 9).
+
 */
 
-// let valor = prompt("Digite um valor")
+let idade = prompt("Digite sua idade")
 
-
-for(let i = 10; i > 0; i--) {
-  console.log("Repetindo o for: " + i)
+if(idade >= 18) {
+  console.log("Adulto")
+}else if(idade >= 14) {
+  console.log("Juvenil")
+}else if(idade >= 9) {
+  console.log("Infantil")
+} else {
+  console.log("Mirim")
 }
