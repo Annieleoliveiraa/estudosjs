@@ -8,7 +8,16 @@ imprimir o valor da venda (conforme as taxas do enunciado).
 */
 
 
-let dadosUsuario = parseInt(prompt("Insira um número"))
-if(dadosUsuario === "20" || dadosUsuario ) {
+let dadosUsuario = Number(prompt("Insira um número"))
+let numero1 = 0.45
+let numero2 = 0.30 
 
+
+if(dadosUsuario <= "20") {
+ console.log("O valor do lucro é: " + dadosUsuario * numero1 + " R$")
+} else if(dadosUsuario >= "30") {
+ console.log("O valor do lucro é: " + dadosUsuario * numero2 + " R$")
+} else {
+ console.log("Valor inválido")
 }
+ 
