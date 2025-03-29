@@ -1,0 +1,6 @@
+
+Adicionando teste com lógica de programação com o JavaScript para melhor aprendizado. 
+Exercício para entrada de dados dos usuários. Essa simples tarefa foi feita para saber 
+qual é a média de um determinado aluno. Então criei uma variável, solicitei entrada de 
+dados por meio do prompt e depois fiz uma soma do valor de acordo com o resultado que 
+o usuário inseriu e fiz a divisão por 3, então imprimiu o resultado na tela. 
